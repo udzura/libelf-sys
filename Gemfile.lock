@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    libelf-sys (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bindata (2.4.10)
+    elftools (1.1.3)
+      bindata (~> 2)
+    rake (12.3.3)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  elftools
+  libelf-sys!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.2.15
